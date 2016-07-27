@@ -11,7 +11,7 @@ import multi from 'redux-multi'
 import thunk from 'redux-thunk'
 
 import ReduxPromise from 'redux-promise'
-import App from 'components/app'
+import App from 'containers/app'
 import reducers from 'reducers'
 
 const middleware = [thunk, multi, ReduxPromise]
